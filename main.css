@@ -1,0 +1,30 @@
+/* myTitle class adds font size,weight,color and alignment */
+	.STYLE
+	{	
+		font-size:30px;
+		color:white;
+		font-weight:Bold;
+		text-align: center;
+		margin-top: 150px;	
+	}
+	/* body tag to define background */
+	body
+	{
+		background: url(bg.jpg);
+	    background-size: 1400px 825px;
+		color : white;
+		font-size : 25px;
+		
+	}
+	
+	table	
+	{
+			margin-left: 400px;
+	}
+	.STYLE1
+	{
+		font-size:30px;
+		color:white;
+		font-weight:Bold;
+		text-align: center;	
+	}

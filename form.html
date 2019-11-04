@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<! -- 
+=============================================
+Student Name : Anusha Narayanan
+Solution for Assignment 2
+=============================================
+-->
+
+
+<html>
+<head>
+	
+	<title>Student Record Management</title>
+	
+	<link rel= " stylesheet " href= "main.css" />
+	<script type = "text/javascript" src = "main.js"></script>
+</head>
+<body>
+
+	<div class = "STYLE">Student Record management<br>
+	<br>
+	<form  name = "myform" id = "studentID" onsubmit = "return false">
+	<table>
+		<tr>
+			<td>
+				<label > Full Name </label>
+			</td>
+			<td>
+				<label > Major </label>
+			</td>
+			<td>
+				<label > Start Year </label>
+			</td>
+			
+		</tr>
+		<tr>
+			<td>
+				<input type="text" required="required" placeholder = "Full Name" id = "" name = "fullName">
+			</td>
+			<td>
+				<input type="text"  placeholder = "Enter Major" name = "major">
+			</td>
+			<td>
+				<input type="text"  placeholder = "Enter start year" name = "startYear">
+			</td>
+			<td>
+				 <input type="submit"  value = "Add Record" onclick="AddRecords()">
+			</td>
+		</tr>
+		
+	</table>
+	</form>
+	</div>
+	<br>	
+	<div class = "STYLE1"><center>Entered Records</center></div>	
+	<p id = "Records"> </p>
+	
+</body>
+</html>
